@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#portrait {
+  border-radius: 50%;
+}
+
+p {
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+
+#Welcome {
+  font-family: "Playwrite US Modern", cursive;
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 992px) {
+  p {
+    max-width: 40rem;
+  }
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+
+.intro-subtext {
+  font-size: 1.15rem;
+}
+
+hr {
+  opacity: 0.25;
+  width: 30%;
+  margin: 100px auto;
+  border: solid gray 2px;
+  border-radius: 50%;
+  border-bottom: none;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.skills {
+  margin-bottom: 5rem;
+}
+
+.skills-image {
+  height: 7rem;
+}
+
+.btn {
+  border-radius: 980px;
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: black;
+  padding: 50px 0 20px;
+  color: white;
+  a {
+    color: white;
+  }
+}
+
+a {
+  text-decoration: none;
+}
